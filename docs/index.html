@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Fetch Demo</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 20px;
+            width: 80%;
+            max-width: 600px;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="fetchData()">Fetch API Data</button>
+    <pre id="output">Click the button to fetch data...</pre>
+
+    <script>
+        function fetchData() {
+            const output = document.getElementById("output");
+            output.textContent = "Fetching data...";
+
+            fetch("http://alb8-2127494217.ap-southeast-2.elb.amazonaws.com/")
+                .then(response => response.text()) // If JSON, use response.json()
+                .then(data => output.textContent = data)
+                .catch(error => output.textContent = "Error: " + error);
+        }
+    </script>
+
+</body>
+</html>
