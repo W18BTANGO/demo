@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import { alpha } from '@mui/material/styles';
 import { gray } from '../themePrimitives';
 
