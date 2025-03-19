@@ -13,8 +13,17 @@ import ApiIcon from '@mui/icons-material/Api';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
+import FormControl from '@mui/material/FormControl';
+import InputLabel from '@mui/material/InputLabel';
 
 export default function Collection(props) {
+const years = [];
+for (let year = new Date().getFullYear(); year >= 2001; year--) {
+    years.push(year);
+}
+
 return (
     <AppTheme {...props}>
         <CssBaseline enableColorScheme />
@@ -51,8 +60,23 @@ return (
             <Typography variant="h2" gutterBottom sx={{ mt: 4 }}>
                 Collect your data:
             </Typography>
-            <Box sx={{ display: 'flex', gap: 2, mb: 4 }}>
-                <Button variant="contained" color="primary">Button 1</Button>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, mb: 4 }}>
+                <Typography variant="body1">
+                    Get housing data for:
+                </Typography>
+                <FormControl fullWidth>
+                    <InputLabel id="year-select-label">Year</InputLabel>
+                    <Select
+                        labelId="year-select-label"
+                        id="year-select"
+                        label="Year"
+                        defaultValue=""
+                    >
+                        {years.map((year) => (
+                            <MenuItem key={year} value={year}>{year}</MenuItem>
+                        ))}
+                    </Select>
+                </FormControl>
                 <Button variant="contained" color="secondary">Button 2</Button>
                 <Button variant="contained" color="success">Button 3</Button>
             </Box>
