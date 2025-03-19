@@ -15,16 +15,25 @@ import eventsData from '../assets/ex_data.json';
 export default function Preprocessing(props) {
   const [output, setOutput] = useState('');
   const [error, setError] = useState('');
+  const [includedAttributes, setIncludedAttributes] = useState(eventsData.include_attributes.join(', '));
+  const [eventType, setEventType] = useState(eventsData.event_type.join(', '));
+  const [filterAttribute, setFilterAttribute] = useState(eventsData.filters[0].attribute);
+  const [filterValues, setFilterValues] = useState(eventsData.filters[0].values.join(', '));
+  const [startTimestamp, setStartTimestamp] = useState(eventsData.start_timestamp);
+  const [endTimestamp, setEndTimestamp] = useState(eventsData.end_timestamp);
 
   const fetchData = async () => {
     try {
       const requestData = {
-        json_data: eventsData.json_data,  // Only the 'json_data' part from the eventsData
-        event_type: eventsData.event_type, // Include the 'event_type' from the example data
-        filters: eventsData.filters, // Include any filters if needed
-        include_attributes: eventsData.include_attributes, // Include attributes you want
-        start_timestamp: eventsData.start_timestamp, // Add start timestamp
-        end_timestamp: eventsData.end_timestamp, // Add end timestamp
+        json_data: eventsData.json_data,
+        event_type: eventType.split(',').map(type => type.trim()), // Use the input value
+        filters: [{
+          attribute: filterAttribute,
+          values: filterValues.split(',').map(value => value.trim())
+        }], // Use the input values
+        include_attributes: includedAttributes.split(',').map(attr => attr.trim()), // Use the input value
+        start_timestamp: startTimestamp, // Use the input value
+        end_timestamp: endTimestamp, // Use the input value
       };
       console.log('Request Data:', JSON.stringify(requestData, null, 2));
   
@@ -65,6 +74,48 @@ export default function Preprocessing(props) {
         <Typography variant="h1" gutterBottom>
           Preprocessing Service
         </Typography>
+        <TextField
+          label="Included Attributes"
+          variant="outlined"
+          fullWidth
+          value={includedAttributes}
+          onChange={(e) => setIncludedAttributes(e.target.value)}
+        />
+        <TextField
+          label="Event Type"
+          variant="outlined"
+          fullWidth
+          value={eventType}
+          onChange={(e) => setEventType(e.target.value)}
+        />
+        <TextField
+          label="Filter Attribute"
+          variant="outlined"
+          fullWidth
+          value={filterAttribute}
+          onChange={(e) => setFilterAttribute(e.target.value)}
+        />
+        <TextField
+          label="Filter Values"
+          variant="outlined"
+          fullWidth
+          value={filterValues}
+          onChange={(e) => setFilterValues(e.target.value)}
+        />
+        <TextField
+          label="Start Timestamp"
+          variant="outlined"
+          fullWidth
+          value={startTimestamp}
+          onChange={(e) => setStartTimestamp(e.target.value)}
+        />
+        <TextField
+          label="End Timestamp"
+          variant="outlined"
+          fullWidth
+          value={endTimestamp}
+          onChange={(e) => setEndTimestamp(e.target.value)}
+        />
         <Button variant="contained" onClick={fetchData}>
           Process Events
         </Button>

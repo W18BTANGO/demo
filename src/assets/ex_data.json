@@ -95,6 +95,585 @@
                         "sale_type": "3",
                         "nature_of_property": "10"
                     }
+                },{
+                    "time_object": {
+                        "timestamp": "20240809",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU436026",
+                        "district_code": 10,
+                        "property_id": 3279211,
+                        "price": 4678800,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "6",
+                        "street_name": "KENNINGTON DR",
+                        "suburb": "TOMAGO",
+                        "postcode": "2322",
+                        "land_area": 4156.0,
+                        "area_unit": "M",
+                        "contract_date": "20240809",
+                        "settlement_date": "20240920",
+                        "zoning_code": "E4",
+                        "property_type": "COMMERCIAL",
+                        "sale_type": "3",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240220",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU445173",
+                        "district_code": 10,
+                        "property_id": 4389505,
+                        "price": 12540000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "15",
+                        "street_name": "KARA CRES",
+                        "suburb": "TAYLORS BEACH",
+                        "postcode": "2316",
+                        "land_area": 1.123,
+                        "area_unit": "H",
+                        "contract_date": "20240220",
+                        "settlement_date": "20240925",
+                        "zoning_code": "E3",
+                        "property_type": "COMMERCIAL",
+                        "sale_type": "3",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240802",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU448179",
+                        "district_code": 10,
+                        "property_id": 3807730,
+                        "price": 990000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "10 A",
+                        "street_name": "CORELLA CL",
+                        "suburb": "SALAMANDER BAY",
+                        "postcode": "2317",
+                        "land_area": 474.1,
+                        "area_unit": "M",
+                        "contract_date": "20240802",
+                        "settlement_date": "20240926",
+                        "zoning_code": "R2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240813",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU441801",
+                        "district_code": 10,
+                        "property_id": 4012950,
+                        "price": 1379999,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "109",
+                        "street_name": "NORFOLK ST",
+                        "suburb": "FERN BAY",
+                        "postcode": "2295",
+                        "land_area": 652.5,
+                        "area_unit": "M",
+                        "contract_date": "20240813",
+                        "settlement_date": "20240924",
+                        "zoning_code": "R2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240821",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU442315",
+                        "district_code": 10,
+                        "property_id": 3926024,
+                        "price": 1150000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "32",
+                        "street_name": "SUGARGLIDER WAY",
+                        "suburb": "FULLERTON COVE",
+                        "postcode": "2318",
+                        "land_area": 377.6,
+                        "area_unit": "M",
+                        "contract_date": "20240821",
+                        "settlement_date": "20240924",
+                        "zoning_code": "RU2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240820",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU448178",
+                        "district_code": 10,
+                        "property_id": 4345659,
+                        "price": 940000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "5",
+                        "street_name": "KINGAROY ST",
+                        "suburb": "MEDOWIE",
+                        "postcode": "2318",
+                        "land_area": 648.0,
+                        "area_unit": "M",
+                        "contract_date": "20240820",
+                        "settlement_date": "20240926",
+                        "zoning_code": "R2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240809",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU434394",
+                        "district_code": 10,
+                        "property_id": 4274777,
+                        "price": 700000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "38",
+                        "street_name": "HENNING RD",
+                        "suburb": "RAYMOND TERRACE",
+                        "postcode": "2324",
+                        "land_area": 325.2,
+                        "area_unit": "M",
+                        "contract_date": "20240809",
+                        "settlement_date": "20240920",
+                        "zoning_code": "R2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240809",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU433958",
+                        "district_code": 10,
+                        "property_id": 4322314,
+                        "price": 630000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "2",
+                        "street_name": "MELMOTH RD",
+                        "suburb": "KARUAH",
+                        "postcode": "2324",
+                        "land_area": 341.4,
+                        "area_unit": "M",
+                        "contract_date": "20240809",
+                        "settlement_date": "20240920",
+                        "zoning_code": "R2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240815",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU450280",
+                        "district_code": 88,
+                        "property_id": 777160,
+                        "price": 4760000,
+                        "property_name": "Unknown",
+                        "unit_number": null,
+                        "street_number": "131",
+                        "street_name": "CREMORNE RD",
+                        "suburb": "CREMORNE POINT",
+                        "postcode": "2090",
+                        "land_area": 322.5,
+                        "area_unit": "M",
+                        "contract_date": "20240815",
+                        "settlement_date": "20240926",
+                        "zoning_code": "R2",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": ""
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240812",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU437955",
+                        "district_code": 88,
+                        "property_id": 777345,
+                        "price": 1585000,
+                        "property_name": "Unknown",
+                        "unit_number": "4",
+                        "street_number": "25",
+                        "street_name": "CROWS NEST RD",
+                        "suburb": "WAVERTON",
+                        "postcode": "2060",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240812",
+                        "settlement_date": "20240923",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "4"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240813",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU442093",
+                        "district_code": 88,
+                        "property_id": 780212,
+                        "price": 595000,
+                        "property_name": "Unknown",
+                        "unit_number": "12",
+                        "street_number": "185",
+                        "street_name": "FALCON ST",
+                        "suburb": "NEUTRAL BAY",
+                        "postcode": "2089",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240813",
+                        "settlement_date": "20240924",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "12"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240823",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU438337",
+                        "district_code": 88,
+                        "property_id": 778116,
+                        "price": 490000,
+                        "property_name": "Unknown",
+                        "unit_number": "313",
+                        "street_number": "22",
+                        "street_name": "DORIS ST",
+                        "suburb": "NORTH SYDNEY",
+                        "postcode": "2060",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240823",
+                        "settlement_date": "20240923",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "38"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240814",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU445950",
+                        "district_code": 88,
+                        "property_id": 780778,
+                        "price": 1300000,
+                        "property_name": "Unknown",
+                        "unit_number": "51",
+                        "street_number": "47",
+                        "street_name": "GERARD ST",
+                        "suburb": "CREMORNE",
+                        "postcode": "2090",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240814",
+                        "settlement_date": "20240925",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "21"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240809",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU433287",
+                        "district_code": 88,
+                        "property_id": 783482,
+                        "price": 492000,
+                        "property_name": "Unknown",
+                        "unit_number": "113",
+                        "street_number": "54",
+                        "street_name": "HIGH ST",
+                        "suburb": "NORTH SYDNEY",
+                        "postcode": "2060",
+                        "land_area": 37.2,
+                        "area_unit": "M",
+                        "contract_date": "20240809",
+                        "settlement_date": "20240920",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "13"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240730",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU438415",
+                        "district_code": 88,
+                        "property_id": 772949,
+                        "price": 1260000,
+                        "property_name": "Unknown",
+                        "unit_number": "30",
+                        "street_number": "44",
+                        "street_name": "BENT ST",
+                        "suburb": "NEUTRAL BAY",
+                        "postcode": "2089",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240730",
+                        "settlement_date": "20240923",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "30"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240819",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU427545",
+                        "district_code": 88,
+                        "property_id": 784076,
+                        "price": 1300000,
+                        "property_name": "Unknown",
+                        "unit_number": "6",
+                        "street_number": "129",
+                        "street_name": "HOLT AVE",
+                        "suburb": "CREMORNE",
+                        "postcode": "2090",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240819",
+                        "settlement_date": "20240918",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "6"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240725",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU447920",
+                        "district_code": 88,
+                        "property_id": 770569,
+                        "price": 920000,
+                        "property_name": "Unknown",
+                        "unit_number": "14",
+                        "street_number": "24",
+                        "street_name": "BARRY ST",
+                        "suburb": "NEUTRAL BAY",
+                        "postcode": "2089",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240725",
+                        "settlement_date": "20240926",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "14"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240815",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU450220",
+                        "district_code": 88,
+                        "property_id": 773219,
+                        "price": 2020000,
+                        "property_name": "Unknown",
+                        "unit_number": "72",
+                        "street_number": "171",
+                        "street_name": "WALKER ST",
+                        "suburb": "NORTH SYDNEY",
+                        "postcode": "2060",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240815",
+                        "settlement_date": "20240926",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "72"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240815",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU439176",
+                        "district_code": 88,
+                        "property_id": 773341,
+                        "price": 900000,
+                        "property_name": "Unknown",
+                        "unit_number": "5",
+                        "street_number": "3",
+                        "street_name": "BILLONG ST",
+                        "suburb": "KURRABA POINT",
+                        "postcode": "2089",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240815",
+                        "settlement_date": "20240923",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "5"
+                    }
+                },
+                {
+                    "time_object": {
+                        "timestamp": "20240814",
+                        "duration": 0,
+                        "duration_unit": "day",
+                        "timezone": "AEDT"
+                    },
+                    "event_type": "sales report",
+                    "attribute": {
+                        "transaction_id": "AU445808",
+                        "district_code": 88,
+                        "property_id": 786775,
+                        "price": 1240000,
+                        "property_name": "Unknown",
+                        "unit_number": "4",
+                        "street_number": "30 A",
+                        "street_name": "LAVENDER ST",
+                        "suburb": "LAVENDER BAY",
+                        "postcode": "2060",
+                        "land_area": null,
+                        "area_unit": "",
+                        "contract_date": "20240814",
+                        "settlement_date": "20240925",
+                        "zoning_code": "",
+                        "property_type": "RESIDENCE",
+                        "sale_type": "R",
+                        "nature_of_property": "4"
+                    }
                 }
         ]
     },
