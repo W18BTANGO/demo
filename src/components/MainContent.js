@@ -83,7 +83,7 @@ function Author({ authors }) {
           {authors.map((author) => author.name).join(', ')}
         </Typography>
       </Box>
-      <Typography variant="caption">July 14, 2021</Typography>
+      <Typography variant="caption">2025 SENG3011</Typography>
     </Box>
   );
 }
@@ -230,7 +230,7 @@ export default function MainContent() {
         </Box>
       </Box>
       <Grid container spacing={2} columns={12}>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={4}>
           <SyledCard
             variant="outlined"
             onFocus={() => handleFocus(0)}
@@ -240,7 +240,7 @@ export default function MainContent() {
           >
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Sydney House"
               image={cardData[0].img}
               sx={{
                 aspectRatio: '16 / 9',
@@ -264,7 +264,7 @@ export default function MainContent() {
             <Author authors={cardData[0].authors} />
           </SyledCard>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={4}>
           <SyledCard
             variant="outlined"
             onFocus={() => handleFocus(1)}
@@ -274,7 +274,7 @@ export default function MainContent() {
           >
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Sydney House"
               image={cardData[1].img}
               aspect-ratio="16 / 9"
               sx={{
@@ -296,6 +296,40 @@ export default function MainContent() {
               </StyledTypography>
             </SyledCardContent>
             <Author authors={cardData[1].authors} />
+          </SyledCard>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <SyledCard
+            variant="outlined"
+            onFocus={() => handleFocus(2)}
+            onBlur={handleBlur}
+            tabIndex={0}
+            className={focusedCardIndex === 2 ? 'Mui-focused' : ''}
+          >
+            <CardMedia
+              component="img"
+              alt="Sydney House"
+              image={cardData[2].img}
+              sx={{
+                aspectRatio: '16 / 9',
+                borderBottom: '1px solid',
+                borderColor: 'divider',
+                maxHeight: 450,
+                maxWidth: '100%',
+              }}
+            />
+            <SyledCardContent>
+              <Typography gutterBottom variant="caption" component="div">
+                {cardData[2].tag}
+              </Typography>
+              <Typography gutterBottom variant="h6" component="div">
+                {cardData[2].title}
+              </Typography>
+              <StyledTypography variant="body2" color="text.secondary" gutterBottom>
+                {cardData[2].description}
+              </StyledTypography>
+            </SyledCardContent>
+            <Author authors={cardData[2].authors} />
           </SyledCard>
         </Grid>
       </Grid>

@@ -13,6 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded'; // Ensure this package is installed
 import ColorModeIconDropdown from '../shared-theme/ColorModeIconDropdown'; // Updated path
 import Sitemark from './SitemarkIcon';
+import { Link as RouterLink } from 'react-router-dom';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',
@@ -53,19 +54,22 @@ export default function AppAppBar() {
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', px: 0 }}>
             <Sitemark />
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-              <Button variant="text" color="info" size="small">
+              <Button variant="text" color="info" size="small" component={RouterLink} to="/">
+                Home
+              </Button>
+              <Button variant="text" color="info" size="small" component={RouterLink} to="/collection">
                 Collection
               </Button>
-              <Button variant="text" color="info" size="small">
-                Retrieval
-              </Button>
-              <Button variant="text" color="info" size="small">
+              <Button variant="text" color="info" size="small" component={RouterLink} to="/preprocessing">
                 Preprocessing
               </Button>
-              <Button variant="text" color="info" size="small">
+              <Button variant="text" color="info" size="small" component={RouterLink} to="/analytics">
                 Analytics
               </Button>
-              <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+              <Button variant="text" color="info" size="small" component={RouterLink} to="/retrieval">
+                Retrieval
+              </Button>
+              <Button variant="text" color="info" size="small" component={RouterLink} to="/visualisation">
                 Visualisation
               </Button>
             </Box>

@@ -2,21 +2,30 @@ const cardData = [
     {
         img: require('../assets/bushHouse.jpg'), // Use require for internal images
         tag: 'Preprocessing',
-        title: 'Use our APIs to help you preprocess your data',
-        description: 'This API is not housing specific, but it can be used to preprocess data analytics model.',
+        title: 'Helping you preprocess your data',
+        description: 'This API is not housing specific, but it can be used to preprocess data analytics model',
         authors: [
             { name: 'W18B_Tango', avatar: '/static/images/avatar/1.jpg' },
         ],
     },
     {
         img: require('../assets/PoolHouse.jpg'),
-        tag: 'Engineering',
-        title: 'Revolutionizing software development with cutting-edge tools',
+        tag: 'Analytics',
+        title: 'Use our dataset agnostic analytics tools to gain insights into your data',
         description:
-            'Discover how our latest tools are transforming the software development landscape, making it easier and faster to build high-quality applications.',
+            'This feature set of APIs includes tools for data analysis, including predictive analytics',
         authors: [
-            { name: 'John Doe', avatar: '/static/images/avatar/1.jpg' },
-            { name: 'Jane Smith', avatar: '/static/images/avatar/2.jpg' },
+            { name: 'W18B_Tango', avatar: '/static/images/avatar/1.jpg' }
+        ],
+    },
+    {
+        img: require('../assets/apartment.png'),
+        tag: 'Collection',
+        title: 'Get JSONied property transactions for any week or year',
+        description:
+            'This housing specific API will fetch neatly parsed data for you to use in your models',
+        authors: [
+            { name: 'W18B_Tango', avatar: '/static/images/avatar/1.jpg' }
         ],
     },
     {
